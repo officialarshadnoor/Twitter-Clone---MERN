@@ -1,7 +1,7 @@
 export const USER_API_END_POINT =
-  "https://twitter-clone-api-orpin.vercel.app/api/v1/user";
+  "https://twitter-clone-api-git-main-arshadnoor585gmailcoms-projects.vercel.app/api/v1/user";
 export const TWEET_API_END_POINT =
-  "https://twitter-clone-api-orpin.vercel.app/api/v1/tweet";
+  "https://twitter-clone-api-git-main-arshadnoor585gmailcoms-projects.vercel.app/api/v1/tweet";
 
 export const timeSince = (timestamp) => {
   let time = Date.parse(timestamp);

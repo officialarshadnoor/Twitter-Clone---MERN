@@ -24,7 +24,8 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-  origin: "https://twitter-clone-fawn-eight.vercel.app",
+  origin:
+    "https://twitter-clone-git-main-arshadnoor585gmailcoms-projects.vercel.app",
   credentials: true,
 };
 
