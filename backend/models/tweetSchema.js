@@ -13,6 +13,7 @@ const tweetSchema = new mongoose.Schema(
     userId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
+      extended: true,
     },
     userDetails: {
       type: Array,
@@ -21,4 +22,5 @@ const tweetSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
 export const Tweet = mongoose.model("Tweet", tweetSchema);
