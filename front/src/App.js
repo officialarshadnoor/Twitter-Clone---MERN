@@ -1,5 +1,5 @@
 import "./App.css";
-import Body from "./components/Body.js";
+import Body from "./components/Body";
 import { Toaster } from "react-hot-toast";
 
 function App() {

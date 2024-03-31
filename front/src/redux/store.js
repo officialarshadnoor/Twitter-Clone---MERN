@@ -1,6 +1,6 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import userSlice from "./userSlice.js";
-import tweetSlice from "./tweetSlice.js";
+import userSlice from "./userSlice";
+import tweetSlice from "./tweetSlice";
 
 import {
   persistStore,

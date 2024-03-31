@@ -8,9 +8,9 @@ import { AiOutlineLogout } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import axios from "axios";
-import { USER_API_END_POINT } from "../utils/constant.js";
+import { USER_API_END_POINT } from "../utils/constant";
 import toast from "react-hot-toast";
-import { getMyProfile, getOtherUsers, getUser } from "../redux/userSlice.js";
+import { getMyProfile, getOtherUsers, getUser } from "../redux/userSlice";
 
 const LeftSidebar = () => {
   const { user } = useSelector((store) => store.user);

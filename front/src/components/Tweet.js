@@ -5,11 +5,11 @@ import { MdOutlineDeleteOutline } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 import { CiBookmark } from "react-icons/ci";
 import axios from "axios";
-import { TWEET_API_END_POINT } from "../utils/constant.js";
+import { TWEET_API_END_POINT } from "../utils/constant";
 import toast from "react-hot-toast";
 import { useSelector, useDispatch } from "react-redux";
-import { getRefresh } from "../redux/tweetSlice.js";
-import { timeSince } from "../utils/constant.js";
+import { getRefresh } from "../redux/tweetSlice";
+import { timeSince } from "../utils/constant";
 
 const Tweet = ({ tweet }) => {
   const { user } = useSelector((store) => store.user);
